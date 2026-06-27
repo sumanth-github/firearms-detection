@@ -22,10 +22,10 @@ A real-time computer vision system that detects firearms and faces in live video
 pip install opencv-python imutils pyttsx3 keyboard matplotlib
 ```
 
-Place `cascade.xml` and `haarcascade_frontalface_default.xml` in the project root, then run:
+Place `cascade.xml` and `haarcascade_frontalface_default.xml` in the project root, then open the notebook:
 
 ```bash
-python detection.py
+jupyter notebook
 ```
 
 Press `Enter` to dismiss an alert. Press `Q` to quit.
